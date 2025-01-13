@@ -10,6 +10,7 @@ const router = require("./route/UserAndDriverRoute.js");
 const server = express();
 const port = process.env.PORT || 5500;
 
+
 // Middleware
 server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());
