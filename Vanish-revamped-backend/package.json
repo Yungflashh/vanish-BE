@@ -1,11 +1,11 @@
 {
   "name": "vanish-revamped-backend",
   "version": "1.0.0",
-  "main": "main",
+  "main": "index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "start": "node main.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",

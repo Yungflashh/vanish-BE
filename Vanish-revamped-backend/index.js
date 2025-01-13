@@ -1,10 +1,10 @@
-// const express = require('express');
+const express = require('express');
 
-const database = require("./database/config.js");
+const database = require("./src/database/config.js");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const movementAndServiceOption = require("./route/UserMovementDetailRoute.js");
-const router = require("./route/UserAndDriverRoute.js");
+const movementAndServiceOption = require("./src/route/UserMovementDetailRoute.js");
+const router = require("./src/route/UserAndDriverRoute.js");
 
 //server
 const server = express();
